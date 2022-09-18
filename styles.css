@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Jost', sans-serif;
+}
+
+.hero {
+    background-image: url("images/skyline.jpg");
+    background-size: cover;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1, h2 {
+    background: rgb(215, 176, 183);
+    border-radius: 5px;
+    padding: 8px 20px;
+    font-family: 'Jost', sans-serif;
+    font-weight: 800px;
+    color: white;
+    text-shadow: -2px 2px 1px black;
+}
+
+#activities {
+    background: rgb(215, 176, 183);
+    padding: 20px;
+}
+
+.activity {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.activity div {
+    margin: 20px;
+}
+
+.activity-img {
+    width: 75px;
+    border: 6px solid white;
+    border-radius: 50%;
+}
+
+.activity-img:hover {
+    width: 100px;
+}
+
+h3 {
+    margin-top: 0;
+    color: white;
+    text-shadow: -2px 2px 1px black;
+}
+
+#guide {
+    width: 400px;
+    padding: 18px 30px;
+    background: rgb(111, 178, 204);
+    margin: 30px auto 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: 10px solid rgb(215, 176, 183);
+}
+
+.guide-img {
+    width: 150px;
+    border: 6px solid white;
+    border-radius: 5px;
+}
+
+.guide-name {
+    color: white;
+    text-shadow: -2px 2px 0px black;
+}
+
+.guide-quote {
+    padding-left: 15px;
+}
